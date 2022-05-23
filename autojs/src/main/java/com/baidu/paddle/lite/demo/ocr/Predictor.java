@@ -163,7 +163,7 @@ public class Predictor {
 
     public void release() {
         if (this.mPaddlePredictorNative != null) {
-            this.mPaddlePredictorNative.destory();
+            this.mPaddlePredictorNative.destroy();
             this.mPaddlePredictorNative = null;
         }
 
@@ -172,7 +172,7 @@ public class Predictor {
 
     public void releaseModel() {
         if (paddlePredictor != null) {
-            paddlePredictor.destory();
+            paddlePredictor.destroy();
             paddlePredictor = null;
         }
         isLoaded = false;
@@ -425,6 +425,7 @@ public class Predictor {
             ocrResult.bounds = new Rect(left, top, right, bottom);
             words_result.add(ocrResult);
         }
+        Collections.sort(words_result);
         return words_result;
     }
 

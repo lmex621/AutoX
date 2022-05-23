@@ -1,5 +1,84 @@
 # Change Log
+
 autoxjs 整个项目的的一些更新日志,双版本号为稳定版，单版本号为激进版本。
+
+### 5.7.11
+优化以下特性：
+* 感谢[weili71]( https://github.com/weili71/AutoX)
+添加Android新版本的无障碍全局动作函数
+包过：
+'takeScreenshot',
+'lockScreen',
+'dismissNotificationShade',
+'keyCodeHeadsetHook',
+'accessibilityShortcut',
+'accessibilityButtonChooser',
+'accessibilityButton',
+'accessibilityAllApps',
+'dpadUp',
+'dpadDown',
+'dpadRight',
+'dpadLeft',
+'dpadCenter'
+* 编译版本升级到android 32 会不会产生新bug 未知
+apk下载地址 选actions https://github.com/kkevsekk1/AutoX/actions
+* 未知原因导致无法上传文件服务器，故不能直接下载，请打github下载
+
+### 5.7.10
+优化以下特性：
+感谢[falcolee]( https://github.com/falcolee)
+增加pro的websocket功能[文档地址](https://pro.autojs.org/docs/#/zh-cn/webSocket)
+增加pro的zip功能[文档地址](https://pro.autojs.org/docs/#/zh-cn/zip)
+增加pro的加解密功能[文档地址](https://pro.autojs.org/docs/#/zh-cn/crypto)
+相关功能 可以参考 实例代码
+感谢 [heham](https://github.com/heham) 调整文档
+ 感谢 [gxylfm](https://github.com/gxylfm)  修复没有勾选权限情况打开APP闪退问题
+这是用手机发布的，没法升级版本号，
+apk下载地址 选actions  https://github.com/kkevsekk1/AutoX/actions/runs/2088633898
+
+
+### 5.7.9
+优化以下特性：
+感谢[falcolee]( https://github.com/falcolee)
+增加pro的websocket功能[文档地址](https://pro.autojs.org/docs/#/zh-cn/webSocket)
+增加pro的zip功能[文档地址](https://pro.autojs.org/docs/#/zh-cn/zip)
+增加pro的加解密功能[文档地址](https://pro.autojs.org/docs/#/zh-cn/crypto)
+相关功能 可以参考 实例代码
+感谢 [heham](https://github.com/heham) 调整文档
+
+### 5.7.8
+优化以下特性：
+*  完善桌面快捷方式的创建
+*  更换包名兼容 autojs 同时存在
+
+
+### 5.7.7
+优化以下特性：
+*  去掉应用校验
+* 感谢 [syhyz](https://github.com/syhyz/)  修复
+* 首次加载问题
+* ocr模型路径问题
+* 调整排序算法
+
+
+
+### 5.7.6
+优化以下特性：
+*  回滚到 rhino-1.7.13
+
+### 5.7.5
+优化以下特性：
+*   双指缩放代码编辑页
+*   感谢 [heham](https://github.com/heham)  修复
+*   进一步解决OCR内存泄漏问题
+*   Background拼写问题
+
+
+
+### 5.7.4
+优化以下特性：
+*   感谢 [syhyz](https://github.com/syhyz/)  ocr 结果排序问题
+*   空指针问题
 
 ### 5.7.3
 优化以下特性：
